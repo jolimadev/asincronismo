@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node callback/index.js",
+    "callback:challenge": "node callback/challenge.js",
+    "promise": "node promise/index.js",
+    "promise:challenge": "node promise/challenge.js",
+    "async": "node async/index.js",
+    "async:challenge": "node async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "juan olima",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
